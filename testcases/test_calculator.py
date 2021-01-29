@@ -50,14 +50,14 @@ class TestCalc:
     @pytest.mark.parametrize("a, b, expected", datas["div"]["datas"], ids=datas["div"]["ids"])
     def test_div(self, a, b, expected):
         print(f"a={a}, b={b}, expected result={expected}")
-        if b == 0:
+        if b != 0:
+            actual_result = self.calc.div(a, b)
+            assert expected == actual_result
+        else:
             try:
                 self.calc.div(a, b)
             except Exception as e:
                 print(e)
-        else:
-            actual_result = self.calc.div(a, b)
-            assert expected == actual_result
 
 
 if __name__ == '__main__':
