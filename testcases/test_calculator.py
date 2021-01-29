@@ -17,27 +17,48 @@ from pythoncode.Calculator import Calculator
 def get_datas():
     with open("./datas/calc.yml") as f:
         datas = yaml.safe_load(f)
-        return (datas["add"]["datas"], datas["add"]["ids"])
+        return datas
 
 
 class TestCalc:
-    datas:list = get_datas()
+    datas: list = get_datas()
+
     def setup_class(self):
         print("Start Calculate...")
         self.calc = Calculator()
 
     def teardown_class(self):
-        print("Calculation End")
+        print("Calculation End!")
+
+    def setup(self):
+        print("--Calculation case begin--")
+
+    def teardown(self):
+        print("--Calculation case complete--")
 
     @pytest.mark.add
-    @pytest.mark.parametrize("a, b, result", datas[0], ids=datas[1])
-    def test_add(self, a, b, result):
-        print(f"a={a}, b={b}, result={result}")
-        assert result == self.calc.add(a, b)
+    @pytest.mark.parametrize("a, b, expected", datas["add"]["datas"], ids=datas["add"]["ids"])
+    def test_add(self, a, b, expected):
+        print(f"a={a}, b={b}, expected result={expected}")
+        actual_result = self.calc.add(a, b)
+        assert expected == actual_result
 
-    # todo: complete add function
-    # todo: div function
+    # done: complete add function
+    # done: div function
     # done: main function
     @pytest.mark.div
-    def test_div(self):
-        pass
+    @pytest.mark.parametrize("a, b, expected", datas["div"]["datas"], ids=datas["div"]["ids"])
+    def test_div(self, a, b, expected):
+        print(f"a={a}, b={b}, expected result={expected}")
+        if b == 0:
+            try:
+                self.calc.div(a, b)
+            except Exception as e:
+                print(e)
+        else:
+            actual_result = self.calc.div(a, b)
+            assert expected == actual_result
+
+
+if __name__ == '__main__':
+    pytest.main(['-vs', 'testcases/test_calculator.py'])
