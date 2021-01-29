@@ -7,5 +7,8 @@
 ## Reference
 - https://docs.pytest.org/en/latest/contents.html#toc
 
-## Homework Address
+## Homework Resource
 - https://ceshiren.com/t/topic/9879
+
+## My Homework Address
+- https://github.com/junevision/CalculatorTest
