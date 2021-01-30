@@ -15,7 +15,7 @@ from pythoncode.Calculator import Calculator
 
 
 def get_datas():
-    with open("./datas/calc.yml") as f:
+    with open("./testcases/datas/calc.yml") as f:
         datas = yaml.safe_load(f)
         return datas
 
