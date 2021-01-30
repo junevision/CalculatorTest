@@ -61,4 +61,4 @@ class TestCalc:
 
 
 if __name__ == '__main__':
-    pytest.main(['-vs', 'testcases/test_calculator.py'])
+    pytest.main(['-vs', 'test_calculator.py'])
