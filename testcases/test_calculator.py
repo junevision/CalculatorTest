@@ -7,6 +7,8 @@
 @desc: Test Class
 """
 import sys
+
+import allure
 import pytest
 
 sys.path.append('..')
@@ -21,6 +23,7 @@ def get_instance():
     print("Calculation End!")
 
 
+@allure.feature("Calculator")
 class TestCalc:
     # datas: list = get_datas()
     # add_int_data = get_datas('add', 'int')
@@ -60,22 +63,26 @@ class TestCalc:
     #     except Exception as e:
     #         print(e)
 
-    @pytest.mark.add
+    @allure.title("add_{get_add_int_datas_with_fixture[0]}_{get_add_int_datas_with_fixture[1]}")
+    @allure.story("Add Integer Function")
     def test_add_int(self, get_instance, get_add_int_datas_with_fixture):
         gaidwf = get_add_int_datas_with_fixture
         assert gaidwf[2] == get_instance.add(gaidwf[0], gaidwf[1])
 
-    @pytest.mark.add
+    @allure.title("add_{get_add_float_datas_with_fixture[0]}_{get_add_float_datas_with_fixture[1]}")
+    @allure.story("Add float Function")
     def test_add_float(self, get_instance, get_add_float_datas_with_fixture):
         gafdwf = get_add_float_datas_with_fixture
         assert gafdwf[2] == round(get_instance.add(gafdwf[0], gafdwf[1]), 8)
 
-    @pytest.mark.div
+    @allure.title("div_{get_div_int_normal_datas_with_fixture[0]}_{get_div_int_normal_datas_with_fixture[1]}")
+    @allure.story("div Integer normal Function")
     def test_div_int_normal(self, get_instance, get_div_int_normal_datas_with_fixture):
         gdindwf = get_div_int_normal_datas_with_fixture
         assert gdindwf[2] == get_instance.div(gdindwf[0], gdindwf[1])
 
-    @pytest.mark.div
+    @allure.title("div_{get_div_int_error_datas_with_fixture[0]}_{get_div_int_error_datas_with_fixture[1]}")
+    @allure.story("div Integer error Function")
     def test_div_int_zero(self, get_instance, get_div_int_error_datas_with_fixture):
         gdiedwf = get_div_int_error_datas_with_fixture
         with pytest.raises(ZeroDivisionError):  # pytest inner function

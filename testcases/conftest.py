@@ -36,3 +36,4 @@ def get_div_int_normal_datas_with_fixture(request):
 @pytest.fixture(params=get_datas('div', 'int_error')[0], ids=get_datas('div', 'int_error')[1])
 def get_div_int_error_datas_with_fixture(request):
     return request.param
+
