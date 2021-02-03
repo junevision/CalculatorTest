@@ -1,6 +1,6 @@
-INFO Tue, 02 Feb 2021 19:28:55 __init__.py[line:40] item.name: test_encode[吐槽大会]
-INFO Tue, 02 Feb 2021 19:28:55 __init__.py[line:41] item._nodeid: pytest-encode/tests/test_encode.py::test_encode[吐槽大会]
-INFO Tue, 02 Feb 2021 19:28:55 __init__.py[line:40] item.name: test_encode[脱口秀]
-INFO Tue, 02 Feb 2021 19:28:55 __init__.py[line:41] item._nodeid: pytest-encode/tests/test_encode.py::test_encode[脱口秀]
-INFO Tue, 02 Feb 2021 19:28:55 test_encode.py[line:15] test data: 吐槽大会
-INFO Tue, 02 Feb 2021 19:28:55 test_encode.py[line:15] test data: 脱口秀
+[INFO] Wed, 03 Feb 2021 15:09:31 __init__.py[line:39] item.name: test_encode[吐槽大会]
+[INFO] Wed, 03 Feb 2021 15:09:31 __init__.py[line:40] item._nodeid: pytest-encode/tests/test_encode.py::test_encode[吐槽大会]
+[INFO] Wed, 03 Feb 2021 15:09:31 __init__.py[line:39] item.name: test_encode[脱口秀]
+[INFO] Wed, 03 Feb 2021 15:09:31 __init__.py[line:40] item._nodeid: pytest-encode/tests/test_encode.py::test_encode[脱口秀]
+[INFO] Wed, 03 Feb 2021 15:09:31 test_encode.py[line:15] test data: 吐槽大会
+[INFO] Wed, 03 Feb 2021 15:09:31 test_encode.py[line:15] test data: 脱口秀

@@ -1,0 +1,1 @@
+[32mINFO    [0m pytest_encode:Calculator.py:18 This case is to test 0.06 / 2

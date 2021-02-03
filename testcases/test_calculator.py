@@ -7,7 +7,6 @@
 @desc: Test Class
 """
 import sys
-
 import allure
 import pytest
 

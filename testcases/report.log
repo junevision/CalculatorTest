@@ -1,34 +1,51 @@
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_int[normal]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[normal]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_int[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_int[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_int[minus]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[minus]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_float[正常]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[正常]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_float[多位数字]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[多位数字]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_add_float[负数]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[负数]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_normal[int]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[int]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_normal[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_normal[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_normal[float]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[float]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_normal[minus]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[minus]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_zero[int]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[int]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_zero[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[bigNum]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_zero[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[zero]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_zero[float]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[float]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:39] item.name: test_div_int_zero[minus]
-INFO Tue, 02 Feb 2021 19:46:13 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_int[normal]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[normal]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_int[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_int[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_int[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_int[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_float[正常]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[正常]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_float[多位数字]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[多位数字]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_add_float[负数]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_add_float[负数]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_normal[int]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[int]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_normal[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_normal[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_normal[float]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[float]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_normal[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_normal[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_zero[int]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[int]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_zero[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[bigNum]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_zero[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[zero]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_zero[float]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[float]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:39] item.name: test_div_int_zero[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 __init__.py[line:40] item._nodeid: testcases/test_calculator.py::TestCalc::test_div_int_zero[minus]
+[INFO] Wed, 03 Feb 2021 15:20:21 Calculator.py[line:14] This case is to test 1 + 1
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test 100000000 + 200000000
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test 0 + 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test -1 + 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test 0.001 + 0.002
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test 4e-05 + 9e-05
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:14] This case is to test -0.003 + 0.001
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 1 / 1
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 1000000 / 200
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 0 / 1
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 0.06 / 2
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test -6 / 2
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 1 / 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 1000000 / 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 0 / 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test 0.06 / 0
+[INFO] Wed, 03 Feb 2021 15:20:22 Calculator.py[line:18] This case is to test -6 / 0

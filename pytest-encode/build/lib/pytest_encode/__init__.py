@@ -12,7 +12,7 @@ import pytest
 
 logging.basicConfig(level=logging.INFO,
                     # log format
-                    format='%(levelname)s %(asctime)s %(filename)s[line:%(lineno)d] %(message)s',
+                    format='[%(levelname)s] %(asctime)s %(filename)s[line:%(lineno)d] %(message)s',
                     # log real time
                     datefmt='%a, %d %b %Y %H:%M:%S',
                     # log file address
