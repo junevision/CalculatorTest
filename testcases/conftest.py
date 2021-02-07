@@ -6,12 +6,14 @@
 @time: 2021/2/2 11:12
 @desc: get test data from yaml
 """
+import os
 import pytest
 import yaml
 
 
 def get_datas(name, type='int'):
-    with open("./datas/calc.yml") as f:
+    bash_path = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+    with open(bash_path + "/testcases/datas/calc.yml") as f:
         all_datas = yaml.safe_load(f)
     datas = all_datas[name][type]['datas']
     ids = all_datas[name][type]['ids']
